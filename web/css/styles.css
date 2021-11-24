@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@600&display=swap'); /* Importa fuente desde Google */
+*{
+    box-sizing: border-box;
+}
+
+.main-header {
+    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)),
+    url(../images/1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 800px;
+    font-family: 'Dosis', sans-serif;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    display: flex;
+}
+
+.main-nav {
+    display: flex;
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7));
+    position: absolute;
+    width: 100%;
+    z-index: 5;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 100px;
+    padding: 20px 40px;
+    font-size: 1.3rem;
+    color:#fff;
+    text-align: center;
+}
+
+ul {
+    display: flex;
+    margin-left: auto;
+    margin-right: 100px;
+}
+
+ul li a {
+   display: inline-block;
+    padding: 20px 40px;
+    font-size: 1.3rem;
+    color:#fff;
+}
+
+
+ul li a:hover {
+    background: #4141ef;
+}
+
+
+.content-header {
+    color: #fff;
+    position:absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+  
+}
+
+.content-header h1 {
+    font-size: 6rem;
+}
+
+.content-header p {
+    font-size: 1.5rem;
+    margin: 15px 30px;
+}
+
+.content-header a {
+    font-size: 1.3rem;
+    display: inline-block;
+    padding: 15px 20px;
+    background: #4141ef;
+    color: #fff;
+}
+
+.content-header a:hover {
+background: #6868f1;
+border:2px solid #fff;
+padding: 13px 18px;
+}
+
+.Linea,
+.Linea2 {
+    position: absolute;
+    width: 40px;
+    height: 130%;
+    right: 15%;
+    top: -50px;
+    transform: rotate(15deg);
+    z-index: 1;
+    background-image: linear-gradient(to right top, #2e3192, #0068c7, #009ce8, #00cff9, #1bffff);
+}
+
+.Linea2{
+    right: 19%;
+}
+
+.stat {
+    display: flex;
+    align-items: flex-end;
+    font-size: 51px;
+    text-align: center;
+    flex-direction:row;
+    justify-content:flex-start;
+   
+}
+.registro{
+    text-align: center;
+    width: 400px;
+    background:green;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: aliceblue;
+}
+
+form {
+    width: 300px;
+    margin: 40px auto;
+    text-align: center;
+    padding: 15px;
+    height: 210px;
+    position: relative
+  }
+  
+  form.appear {
+    background-color: #EEE
+  }
+  
+  form h1 {
+    color: #666;
+    font-weight: 900;
+    font-size: 35px;
+    margin-top: 0;
+    margin-bottom: 15px;
+  }
+  
+  form input[type="text"],
+  form input[type="password"] {
+    padding: 10px;
+    display: block;
+    margin-bottom: 15px
+  }
+  
+  form input[type="submit"] {
+    background-color: #F00;
+    color: #FFF;
+    border: 1px solid #F00;
+    padding: 10px 20px;
+    position: absolute;
+    left: 50%;
+    bottom: 190px;
+    width: 123px;
+    height: 40px;
+    margin-left: -61px
+  }
+  
+  form input[type="text"],
+  form input[type="password"],
+  h1 {
+    display: none
+  }
